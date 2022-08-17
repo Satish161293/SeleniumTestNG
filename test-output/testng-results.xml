@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Kite App]]>
+    </line>
+    <line>
+      <![CDATA[Send User Id]]>
+    </line>
+    <line>
+      <![CDATA[Send User Password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Log In Page]]>
+    </line>
+    <line>
+      <![CDATA[Send Pin]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on ClickOnContinueBotton ]]>
+    </line>
+    <line>
+      <![CDATA[Validate Actual And Exepected User ID ]]>
+    </line>
+    <line>
+      <![CDATA[Validate Actual And Exepected User ID TC is Passed ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-07T16:37:12 IST" name="Default suite" finished-at="2022-08-07T16:37:32 IST" duration-ms="20154">
+    <groups>
+    </groups>
+    <test started-at="2022-08-07T16:37:12 IST" name="Default test" finished-at="2022-08-07T16:37:32 IST" duration-ms="20154">
+      <class name="pomStudy.ValidateKiteUserID1">
+        <test-method is-config="true" signature="LaunchBrouser()[pri:0, instance:pomStudy.ValidateKiteUserID1@1151e434]" started-at="2022-08-07T16:37:12 IST" name="LaunchBrouser" finished-at="2022-08-07T16:37:24 IST" duration-ms="12255" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Kite App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LaunchBrouser -->
+        <test-method is-config="true" signature="LogIntoKite()[pri:0, instance:pomStudy.ValidateKiteUserID1@1151e434]" started-at="2022-08-07T16:37:24 IST" name="LogIntoKite" finished-at="2022-08-07T16:37:26 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Send User Id]]>
+            </line>
+            <line>
+              <![CDATA[Send User Password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Log In Page]]>
+            </line>
+            <line>
+              <![CDATA[Send Pin]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on ClickOnContinueBotton ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogIntoKite -->
+        <test-method signature="ValidateID()[pri:0, instance:pomStudy.ValidateKiteUserID1@1151e434]" started-at="2022-08-07T16:37:26 IST" name="ValidateID" finished-at="2022-08-07T16:37:28 IST" duration-ms="2622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validate Actual And Exepected User ID ]]>
+            </line>
+            <line>
+              <![CDATA[Validate Actual And Exepected User ID TC is Passed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateID -->
+        <test-method is-config="true" signature="logoutKitePage()[pri:0, instance:pomStudy.ValidateKiteUserID1@1151e434]" started-at="2022-08-07T16:37:28 IST" name="logoutKitePage" finished-at="2022-08-07T16:37:32 IST" duration-ms="3770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutKitePage -->
+      </class> <!-- pomStudy.ValidateKiteUserID1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

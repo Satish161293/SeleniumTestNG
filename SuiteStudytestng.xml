@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel = "tests">
+  <test  name="TestEx1">
+    <classes>
+      <class name="testNG.AssertEqualNotEqualsStudy"/>
+    </classes>
+  </test> <!-- TestEx1 -->
+  <test  name="TestEx2">
+    <classes>
+      <class name="testNG.SoftAssertStudy"/>   
+    </classes>
+  </test> <!-- TestEx1 -->
+</suite> <!-- Suite -->
