@@ -9,6 +9,8 @@ public class AssertEx1 {
   {
 	  String S ="Satish";
 	  String S4 = "Satish";
+	  String S5 ="Dshmukh";
+	  String S6 = "Deshmukh";
 	  String S1 = "satish";
 //	 boolean B = true;
 //	 boolean B1 =false;
